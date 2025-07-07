@@ -1,0 +1,161 @@
+{
+    "editor.fontSize": 18,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.editor.enablePreview": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "always",
+    "go.toolsManagement.autoUpdate": true,
+    "remote.SSH.remotePlatform": {
+        "coder-vscode--admin--ks-install": "linux",
+        "*.gitpod.io": "linux"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "[shellscript]": {
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+    },
+    "go.languageServerFlags": [],
+    "go.formatTool": "goimports",
+    "files.associations": {
+        "*.tmpl": "go"
+    },
+    "gitlens.advanced.fileHistoryShowAllBranches": true,
+    "workbench.editorAssociations": {
+        "{git,gitlens,conflictResolution,vscode-local-history}:/**/*.tc.json": "default",
+        "*.png": "imagePreview.previewEditor",
+        "*.excalidraw": "editor.excalidraw"
+    },
+    "excalidraw.language": "zh-CN",
+    "excalidraw.image": {
+        "exportScale": 1,
+        "exportWithBackground": true,
+        "exportWithDarkMode": false
+    },
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "explorer.confirmDelete": false,
+    "terminal.integrated.env.osx": {
+        "CW_NEW_SESSION": "1",
+        "Q_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "on",
+    "workbench.settings.applyToAllProfiles": [
+        "continue.remoteConfigServerUrl"
+    ],
+    "dart.showTodos": false,
+    "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": [
+        "TODO",
+        "BUG",
+        "tag",
+        "done",
+        "mark",
+        "test",
+        "[x]"
+    ],
+    "todo-tree.regex.regexCaseSensitive": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "#e97312",
+        "background": "#c9c552",
+        "icon": "check",
+        "rulerColour": "#c9c552",
+        "type": "tag",
+        "iconColour": "#c9c552"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "alert",
+            "background": "#ec4f1a",
+            "rulerColour": "#c9c552",
+            "iconColour": "#c9c552"
+        },
+        "BUG": {
+            "background": "#eb5c5c",
+            "icon": "bug",
+            "rulerColour": "#eb5c5c",
+            "iconColour": "#eb5c5c"
+        },
+        "tag": {
+            "background": "#38b2f4",
+            "icon": "tag",
+            "rulerColour": "#38b2f4",
+            "iconColour": "#38b2f4",
+            "rulerLane": "full"
+        },
+        "done": {
+            "background": "#5eec95",
+            "icon": "check",
+            "rulerColour": "#5eec95",
+            "iconColour": "#5eec95"
+        },
+        "mark:": {
+            "background": "#f90",
+            "icon": "note",
+            "rulerColour": "#f90",
+            "iconColour": "#f90"
+        },
+        "test": {
+            "background": "#df7be6",
+            "icon": "flame",
+            "rulerColour": "#df7be6",
+            "iconColour": "#df7be6"
+        },
+        "[x]": {
+            "background": "#d65d8e",
+            "icon": "versions",
+            "rulerColour": "#d65d8e",
+            "iconColour": "#d65d8e"
+        }
+    },
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules/*/**",
+        "**/themes/**/**"
+    ],
+    "todo-tree.filtering.scopes": [],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "http.proxyAuthorization": null,
+    "todo-tree.filtering.includeHiddenFiles": true,
+    "git.ignoreRebaseWarning": true,
+    "update.showReleaseNotes": false,
+    "lldb.suppressUpdateNotifications": true,
+    "makefile.configureOnOpen": false,
+    "gitlens.graph.minimap.enabled": false,
+    "remote.SSH.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "dev.containers.defaultExtensions": [
+        "gitpod.gitpod-remote-ssh"
+    ],
+    "files.exclude": {
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "files.watcherExclude": {
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "editor.defaultFormatter": "ms-python.python",
+    "bracket-pair-colorizer-2.depreciation-notice": false
+}
